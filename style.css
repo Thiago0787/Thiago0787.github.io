@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 20vw;
+    height: 20vh;
+    /*background-color: black;*/
+    float: left; 
+    position: absolute;
+    transition: 10s;
+}
+div:hover{
+    transition: 0.6s linear;
+    background-color: purple;
+}
+.a{
+    background-color: red; 
+    bottom: 30.8vw;
+    left: 80vh;
+}
+.b{
+    background-color: black;
+    left: 80vh;
+    bottom: 41vh;
+    z-index: 1;
+}
+.c{
+    background-color: yellow;
+    left: 60.2vh;
+    bottom: 20.7vw;
+}
+.d{
+    background-color: navy;
+    left: 99.8vh;
+    bottom: 20.7vw;
+}
+.e{
+    background-color: green;
+    top: 29.9vw;
+    left: 80vh;
+}
